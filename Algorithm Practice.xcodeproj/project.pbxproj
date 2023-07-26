@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		26CF83A32A7039E2005D45D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CF83A22A7039E2005D45D5 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		26CF839D2A7039E2005D45D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26C79A692A71839A00B94705 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
 		26CF839F2A7039E2005D45D5 /* Algorithm Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26CF83A22A7039E2005D45D5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26CF83AB2A703BDF005D45D5 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +35,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C79A662A717B9B00B94705 /* 코딩 기초 트레이닝 */ = {
+			isa = PBXGroup;
+			children = (
+				26CF83AB2A703BDF005D45D5 /* day1.swift */,
+			);
+			name = "코딩 기초 트레이닝";
+			path = "코딩 기초 트레이닝";
+			sourceTree = "<group>";
+		};
+		26C79A672A717BA600B94705 /* 코딩테스트 입문 */ = {
+			isa = PBXGroup;
+			children = (
+				26C79A692A71839A00B94705 /* day1.swift */,
+			);
+			name = "코딩테스트 입문";
+			path = "코딩테스트 입문";
+			sourceTree = "<group>";
+		};
 		26CF83962A7039E2005D45D5 = {
 			isa = PBXGroup;
 			children = (
-				26CF83A12A7039E2005D45D5 /* Algorithm Practice */,
+				26CF83A92A703A1B005D45D5 /* 프로그래머스 */,
+				26CF83AA2A703A2A005D45D5 /* 백준 */,
 				26CF83A02A7039E2005D45D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +70,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26CF83A12A7039E2005D45D5 /* Algorithm Practice */ = {
+		26CF83A92A703A1B005D45D5 /* 프로그래머스 */ = {
 			isa = PBXGroup;
 			children = (
-				26CF83A22A7039E2005D45D5 /* main.swift */,
+				26C79A672A717BA600B94705 /* 코딩테스트 입문 */,
+				26C79A662A717B9B00B94705 /* 코딩 기초 트레이닝 */,
 			);
-			path = "Algorithm Practice";
+			name = "프로그래머스";
+			path = "프로그래머스";
+			sourceTree = "<group>";
+		};
+		26CF83AA2A703A2A005D45D5 /* 백준 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "백준";
+			path = "백준";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +120,7 @@
 				TargetAttributes = {
 					26CF839E2A7039E2005D45D5 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -120,7 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26CF83A32A7039E2005D45D5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +269,11 @@
 		26CF83A72A7039E2005D45D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "프로그래머스/코딩 기초 트레이닝/Algorithm Practice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -252,8 +281,10 @@
 		26CF83A82A7039E2005D45D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "프로그래머스/코딩 기초 트레이닝/Algorithm Practice-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

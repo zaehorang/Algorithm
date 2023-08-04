@@ -44,14 +44,14 @@ if a % 2 == 0 {
 다른 답: print(a, "is", a % 2 == 0 ? "even" : "odd")
 
 
-// ⭐️⭐️ 5. 문자열 겹쳐쓰기
+// ⭐️⭐️⭐️ 5. 문자열 겹쳐쓰기
 func solution(_ my_string:String, _ overwrite_string:String, _ s:Int) -> String {
     
     var a = my_string.map { String($0)}
     var b = overwrite_string.map { String($0)}
     var cnt = s + overwrite_string.count
     
-    a.replaceSubrange(s..<cnt, with: b)
+    a.replaceSubrange(s..<cnt, with: b)  //함수 기억하기!
     
     return a.joined()
 }

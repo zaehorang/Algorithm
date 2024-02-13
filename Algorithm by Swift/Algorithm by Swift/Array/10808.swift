@@ -29,13 +29,13 @@ print(array.map{ String($0) }.joined(separator: " "))
 //
 //if let input = input {
 //    var answer = [Int](repeating: 0, count: 26)
-//    var alphabet = "abcdefghijklmnopqrstuvwxyz"
+//    var alphabets = "abcdefghijklmnopqrstuvwxyz"
 //    var index = 0
 //
 //    for str in input {
 //
-//        for alp in alphabet {
-//            if str == alp {
+//        for alphabet in alphabets {
+//            if str == alphabet {
 //                answer[index] += 1
 //
 //                index = 0

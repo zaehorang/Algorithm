@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2602C35D2B7F2571002DDB16 /* 1406.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1406.swift; sourceTree = "<group>"; };
 		26B4362C2B7A1EC900D1AD63 /* Algorithm by Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm by Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B4362F2B7A1EC900D1AD63 /* 10808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10808.swift; sourceTree = "<group>"; };
 		26B4363D2B7A26A300D1AD63 /* 3273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3273.swift; sourceTree = "<group>"; };
@@ -37,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2666BD252B831D9B0017F5C6 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				2602C35D2B7F2571002DDB16 /* 1406.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
 		26B436232B7A1EC900D1AD63 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				26B436402B7A368E00D1AD63 /* Array */,
+				2666BD252B831D9B0017F5C6 /* Linked List */,
 			);
 			path = "Algorithm by Swift";
 			sourceTree = "<group>";

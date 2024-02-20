@@ -25,6 +25,7 @@
 		26B4363D2B7A26A300D1AD63 /* 3273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3273.swift; sourceTree = "<group>"; };
 		26B436412B7B237300D1AD63 /* 2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2577.swift; sourceTree = "<group>"; };
 		26B436452B7B307100D1AD63 /* 1475.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1475.swift; sourceTree = "<group>"; };
+		26DA21582B84930A00F5607A /* 10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10828.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 			children = (
 				26B436402B7A368E00D1AD63 /* Array */,
 				2666BD252B831D9B0017F5C6 /* Linked List */,
+				26DA21572B8492E600F5607A /* Stack */,
 			);
 			path = "Algorithm by Swift";
 			sourceTree = "<group>";
@@ -80,6 +82,14 @@
 				26B4362F2B7A1EC900D1AD63 /* 10808.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		26DA21572B8492E600F5607A /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				26DA21582B84930A00F5607A /* 10828.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +124,7 @@
 				TargetAttributes = {
 					26B4362B2B7A1EC900D1AD63 = {
 						CreatedOnToolsVersion = 14.3.1;
-						LastSwiftMigration = 1430;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};

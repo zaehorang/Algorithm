@@ -27,6 +27,7 @@
 		26B4364A2B7B519000D1AD63 /* 1406.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1406.cpp; sourceTree = "<group>"; };
 		26DA215B2B849A4800F5607A /* 10828.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10828.cpp; sourceTree = "<group>"; };
 		26DA21672B84E15700F5607A /* 10845.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10845.cpp; sourceTree = "<group>"; };
+		26DA216B2B859F0500F5607A /* 5397.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5397.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				26B4364A2B7B519000D1AD63 /* 1406.cpp */,
+				26DA216B2B859F0500F5607A /* 5397.cpp */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";

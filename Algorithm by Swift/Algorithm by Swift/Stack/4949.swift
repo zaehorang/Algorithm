@@ -15,7 +15,7 @@
 //        if char == "[" || char == "(" {
 //            s.append(char)
 //        } else if let last = s.last {
-//            if (last == "[" && char == ")") || (last == "(" && char == "]") { // 닫는 괄호와 스택의 top 괄호가 짝이 아니라면
+//            if (last == "[" && char == ")") || (last == "(" && char == "]") { // 닫는 괄호와 스택의 top 괄호가 짝이  n아니라면
 //                break
 //            } else if last == "[" && char == "]" {  // 짝이 맞다면
 //                s.removeLast()
